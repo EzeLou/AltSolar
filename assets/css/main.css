@@ -3284,17 +3284,25 @@ body.landing #page-wrapper {
 	text-align: center;
 }
 .banner h2{
+font-size: 3.5em;
+	font-weight: bolder;
+	line-height: 0.5em;
+	margin: 0 0 0.5em 0;
+	padding: 0;
+}
+/*
+.banner h2{
 	font-size: 3.5rem;
 	font-weight: lighter;
 	line-height: 0.5em;
 	margin: 0 0 0.5em 0;
 	padding: 0;
 	color: #fff;
-}
+*/
 
 .banner p{
 	font-style: italic;
-	font-size: 1.25em;
+	font-size: 2rem;
 	margin-bottom: 1.75em;
 	color: #fff;
 }
