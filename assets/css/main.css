@@ -3301,9 +3301,10 @@ font-size: 3.5em;
 */
 
 .banner p{
-	font-style: italic;
+	font-style: normal;
+	font-weight: initial;
 	font-size: 2rem;
-	margin-bottom: 1.75em;
+	margin-top: 1rem;
 	color: #fff;
 }
 
