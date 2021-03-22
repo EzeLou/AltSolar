@@ -3961,7 +3961,22 @@ body.landing #main {
 		margin-top: 2em;
 	}
 
-	/* Banner */
+	/* Banner class*/
+	
+	.banner {
+		padding: 4em 0;
+	}
+
+	.banner h2 {
+		font-size: 2.25em;
+	}
+
+	.banner p {
+		font-size: 1.25em;
+	}
+
+	
+	/* Banner ID*/
 
 	#banner {
 		padding: 4em 0;
