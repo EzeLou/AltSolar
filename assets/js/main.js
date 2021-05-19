@@ -1,3 +1,20 @@
+/* boostrap
+var scriptjs1 = require('scriptjs1');
+scriptjs('https://code.jquery.com/jquery-3.5.1.slim.min.js', function() {
+    L.mapbox.accessToken = 'scriptjs1';
+});
+
+var scriptjs2 = require('scriptjs2');
+scriptjs('https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js', function() {
+    L.mapbox.accessToken = 'scriptjs2';
+});
+
+var scriptjs3 = require('scriptjs3');
+scriptjs('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js', function() {
+    L.mapbox.accessToken = 'scriptjs3';
+});
+/ boostrap*/
+
 (function($) {
 
 	var	$window = $(window),
