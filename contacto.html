@@ -96,27 +96,36 @@
 			<hr>
 			<!-- MAPA -->
 			<div class="box">
+
+				<!-- 
 				<div class="image featured">
 					<img src="images/mapimg.png" alt="">
 				</div>
 				<p>google maps not working 😠</p>
+				-->
 
-				<!-- Google Maps API 
+				<div id="map">
 
-			<div id="map">
-				<script
-					src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIwzALxUPNbatRBj3Xi1Uhp0fFzwWNBkE&callback=initMap&libraries=&v=weekly"
-					async></script>
-				</script>
+					<!-- api key AIzaSyBGKyndW5fyWXrDysXg0jlOyGByegPRLrg -->
+
+					<script async
+						src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGKyndW5fyWXrDysXg0jlOyGByegPRLrg&callback=initMap">
+						</script>
+
+					<script
+						src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGKyndW5fyWXrDysXg0jlOyGByegPRLrg&callback=initMap&libraries=&v=weekly"
+						async></script>
+					<script>
+						let map;
+						function initMap() {
+							map = new google.maps.Map(document.getElementById("map"), {
+								center: { lat: -31.4235676, lng: -64.1348731 },
+								zoom: 8,
+							});
+						}
+					</script>
+				</div>
 			</div>
-			-->
-
-				<!-- 
-			<iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen
-			src="https://www.google.com/maps/embed/v1/place?q=alternativa%20solar&key=AIzaSyAMPmPqKj3GeNDFGFX86qxSjGuXMi-8Jfw"></iframe>
-			-->
-			</div>
-
 		</section>
 
 		<!-- Footer -->
@@ -153,6 +162,8 @@
 	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v10.0"
 		nonce="1ZzpHZzY"></script>
 
+	<!-- Google Maps-->
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 
 
 </body>
